@@ -1,0 +1,95 @@
+.newProjPage {
+  height: 100vh;
+  width: 100%;
+}
+
+.projConfig-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-left: 10%;
+  gap: 3%;
+  width: 100%;
+  height: 100%;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  width: 100%;
+}
+
+.inputsForm.desc {
+  width: 80%;
+  padding-top: 5px;
+  height: 10vh;
+}
+
+.collab-div {
+  background-color: transparent;
+  border-radius: 0.5rem;
+}
+
+.css-op7nof-MuiFormControl-root {
+  margin: 0 !important;
+  margin-top: 5px !important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon,
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root,
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #3c8bc3 !important;
+  border-width: 2px;
+}
+
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+  color: #3c8bc3 !important;
+}
+
+.collab-input {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  padding-left: 10px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+#arrow-collab {
+  width: 35px;
+  height: auto;
+  cursor: pointer;
+}
+
+.newProjectPage-button {
+  width: 70%;
+  height: 5.5vh;
+  background-color: #051e38;
+  border-style: solid;
+  border-color: #051e38;
+  border-width: 2px;
+  transition: 0.3s;
+  color: white;
+  border-radius: 5px;
+}
+
+.newProjectPage-button:hover {
+  border-color: #3c8bc3;
+  cursor: pointer;
+  transition: 0.4s;
+}

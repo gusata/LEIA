@@ -1,0 +1,95 @@
+.align-center.introduction {
+  width: 100%;
+  height: 90% !important;
+  align-self: flex-end;
+  margin-top: 10%;
+}
+
+.align-bottom {
+  z-index: 999;
+  width: 100%;
+  height: 10%;
+  align-self: flex-end;
+}
+
+.alignLeft {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.alignCenter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.align-center.introduction-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+/*TELA DE CELULAR*/
+@media (max-width: 800px) {
+  .logo.homebar {
+    width: 7rem;
+    height: auto;
+  }
+
+  #registerBtn {
+    width: 50% !important;
+    min-width: fit-content;
+  }
+}
+
+#registerBtn {
+  height: 60%;
+  width: 20%;
+  border-radius: 7px;
+  border-width: 1.7px;
+  border-color: white;
+  border-style: ridge;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#loginBtn {
+  color: white;
+  margin: 4%;
+  cursor: pointer;
+}
+
+#loginBtn:hover {
+  cursor: pointer;
+  color: #9fe1a8;
+}
+
+#registerBtn:hover {
+  cursor: pointer;
+  color: #9fe1a8;
+  border-color: #9fe1a8;
+}
+
+html {
+  background-color: white;
+  height: auto;
+}
+
+.logo.instagram {
+  width: 20px;
+  height: auto;
+  left: -200;
+}
+
+.logo.linkedin {
+  display: flex;
+  width: 20px;
+  height: auto;
+  left: -180px;
+}

@@ -1,0 +1,138 @@
+.edituserPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #021121;
+}
+
+.containerFormm {
+  flex-direction: column;
+  width: 65vh;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  display: flex;
+  border-radius: 13px;
+  overflow: hidden;
+  background-color: #151a21;
+  background: rgba(255, 255, 255, 0.055);
+  box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid #3c8bc3;
+  z-index: 999;
+}
+
+.userEditContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+#user-edit-title {
+  color: white;
+}
+
+.labels {
+  left: 10vh;
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.alterarLBL {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  color: #3c8bc3;
+  font-style: italic;
+}
+
+.inputs {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.usuarioEmail {
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.senhas {
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.InputsEDBlock {
+  width: 370px;
+  height: 35px;
+  background-color: #bbbbbba6;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.623);
+  gap: 20px;
+}
+
+.InputsED {
+  width: 370px;
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  gap: 20px;
+}
+
+.alignLeft {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.BTNalteracao {
+  width: 42vh;
+  height: 6vh;
+  margin: 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  backdrop-filter: blur(7px);
+  background: transparent;
+  background: #3c8bc375;
+  box-shadow: 0 8px 32px 0 #051133;
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  font-size: 15px;
+  transition: 0.3s;
+  border-style: solid;
+  border-color: #051e38;
+  border-width: 2px;
+}
+
+.BTNalteracao:hover {
+  cursor: pointer;
+  border-color: #3c8bc3;
+}

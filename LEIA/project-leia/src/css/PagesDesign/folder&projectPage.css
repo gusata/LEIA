@@ -1,0 +1,219 @@
+.homePage,
+.folderPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #021121;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+#title {
+  color: rgb(255, 255, 255);
+  white-space: pre;
+}
+
+#title-folder {
+  color: #ffcc40;
+}
+
+.title-container-folderpage {
+  display: flex;
+}
+
+.content.homePage,
+.content.folderPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3%;
+  height: 100%;
+  width: 100%;
+}
+
+.logo.lateral {
+  width: 35px;
+  cursor: pointer;
+}
+
+.menu-separate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+}
+
+.bottom-align {
+  padding-bottom: 20px;
+}
+.user {
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  display: none;
+}
+
+.userico {
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: 2rem;
+  display: flex;
+  cursor: pointer;
+}
+.user-open {
+  display: block;
+  color: rgb(255, 246, 235);
+  font-family: monospace;
+}
+
+.user-container.open {
+  display: flex;
+  align-items: center;
+  gap: 9rem;
+  margin-top: 1rem;
+  transition: 0.5s;
+}
+
+.align-top-projectpage,
+.align-top-folderpage {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 3%;
+  margin-left: 4%;
+}
+
+.align-left-folderpage {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.search-docs,
+.folder-title-input {
+  width: 80%;
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: transparent;
+  border: none;
+}
+.search-docs:focus,
+.folder-title-input:focus {
+  outline: none;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+  width: 50%;
+  height: 100%;
+}
+
+.align-center {
+  max-height: 90%;
+}
+
+.search-div,
+.new-folder-div {
+  display: flex;
+  gap: 3rem;
+  padding: 10px;
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.11);
+}
+
+.new-folder-div {
+  width: 100% !important;
+}
+
+.popup-content {
+  margin: auto;
+  background: #171e31;
+  height: fit-content;
+  padding: 5px;
+}
+.popup-arrow {
+  color: #171e31;
+}
+[role="tooltip"].popup-content {
+  width: 15rem;
+  border-radius: 0.3rem;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup="tooltip"].popup-overlay {
+  background: transparent;
+}
+
+.add-title-icon {
+  height: 100%;
+  width: 1rem;
+  cursor: pointer;
+  color: white;
+}
+
+.folders-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 4%;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  height: fit-content;
+  width: 100%;
+}
+
+.new-button.new-folder {
+  border-color: #ffcc40;
+}
+
+.newDocs-button {
+  height: 90%;
+  width: 50%;
+  padding: 5px;
+  border-radius: 7px;
+  border-width: 2.2px;
+  border-color: rgba(255, 255, 255, 0.678);
+  border-style: ridge;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newDocs-button:hover {
+  transform: translateY(-2px);
+  transition: 0.4s;
+  border-color: rgb(169, 135, 255);
+  border-style: ridge;
+}
+
+#del-folder-icon {
+  cursor: pointer;
+  height: 3vh;
+  color: white;
+  transition: 0.2s;
+}
+
+#del-folder-icon:hover {
+  transform: translateY(-2px);
+  transition: 0.2s ease-in;
+  height: 3.3vh;
+}

@@ -1,0 +1,45 @@
+.quill {
+  background-color: white;
+  overflow-y: hidden;
+  border-radius: 1rem;
+  width: 38.4vw;
+  height: 100%;
+
+  max-height: 80vh;
+  min-height: 80vh;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+#quill-editor-container {
+  height: 100%;
+  width: 100%;
+  max-height: 80vh;
+}
+
+.ql-container.ql-snow {
+  height: 100%;
+  width: 100%;
+  max-width: 100% !important;
+  max-height: 80vh !important;
+  border: none;
+  overflow-y: hidden;
+}
+.ql-toolbar.ql-snow {
+  border: none;
+}
+.ql-editor {
+  height: 77vh;
+
+  overflow-y: scroll;
+}
+
+.container-editor {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
